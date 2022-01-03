@@ -1,24 +1,24 @@
 {
   "main": {
-    "name": "Sonny Sangha",
-    "occupation": "CEO of PAPA",
-    "description": "I eat, sleep and breathe React",
+    "name": "Victor Umeh",
+    "occupation": "Software Engineer",
+    "description": "I just wanna make Money!!",
     "image": "profilepic.jpg",
     "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
     "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
-    "email": "papareact.team@gmail.com",
-    "phone": "+44 1234567899",
+    "email": "umehvictormario@gmail.com",
+    "phone": "+2348133494315",
     "address": {
-      "street": "123 Dev Lane",
-      "city": "London",
-      "state": "Devosphere",
-      "zip": "W3B D3V"
+      "street": "26 Negedu Street, Byazhin",
+      "city": "Abuja",
+      "state": "Federal Capital Territory",
+      "zip": "900001"
     },
     "website": "https://www.papareact.com/course",
-    "resumedownload": "http://papareact.com",
+    "resumedownload": "./UMEH-VICTOR-CV.pdf",
     "social": [
       {
-        "name": "youtube",
+        "name": "twitter",
         "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
         "className": "fa fa-youtube"
       },
@@ -39,7 +39,7 @@
       },
       {
         "name": "github",
-        "url": "https://github.com/PapaReact",
+        "url": "https://github.com/vyktoremario",
         "className": "fa fa-github"
       }
     ]
@@ -48,62 +48,214 @@
     "skillmessage": "My Programming Language Proficiency",
     "education": [
       {
-        "school": "University of Kent - UK",
-        "degree": "Bachelor's Degree, Computer Science",
-        "graduated": "July 2016",
-        "description": "Graduated with First Class Honours"
+        "school": "Federal University of Technology, Owerri - Nigeria",
+        "degree": "Bachelor's Degree, Civil Engineering",
+        "graduated": "November 2017",
+        "description": "Graduated with Second Class Honours"
       }
     ],
     "work": [
       {
-        "company": "PAPA",
-        "title": "Founder and CEO",
-        "years": "May 2019 - Present",
-        "description": "Cloning all the apps possible. On the way to clone the world! Building the PAPA Fam as large as possible."
+        "company": "Decagon Institute",
+        "title": "Software Engineer",
+        "years": "March 2020 - Present",
+        "description": "Built projects with NodeJs, Express Framework, Typescript, React.js, JavaScript, Websockets and GraphQL. Handled Database Management Systems with SQL like PostgresSQL and MongoDB(NoSQL). Experienced with writing unit using Jest. Delivered weekly features following the agile methodology"
+      },
+      {
+        "company": "Kontz Engineering",
+        "title": "Web Developer",
+        "years": "August 2019 - February 2020",
+        "description": "Built the Frontend of clients’ applications using React.js. Assisted in implementing new API endpoints using Nodejs and Express. Conversion of HTML and CSS codes to ReactJS. Managed, developed and deployed WordPress websites. Built client apps using ReactJs."
       }
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "NodeJs",
         "level": "100%"
       },
       {
-        "name": "Python",
+        "name": "Express",
+        "level": "95%"
+      },
+      {
+        "name": "C#(.NET)",
+        "level": "50%"
+      },
+      {
+        "name": "Typescript",
         "level": "85%"
       },
       {
-        "name": "Git",
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "NextJs",
+        "level": "60%"
+      },
+      {
+        "name": "React-Native",
+        "level": "65%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "95%"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "75%"
+      },
+      {
+        "name": "Version control (Git)",
         "level": "70%"
       },
       {
-        "name": "JavaScript",
-        "level": "99%"
+        "name": "Solidity",
+        "level": "85%"
+      },
+      {
+        "name": "Moralis",
+        "level": "70%"
       },
       {
         "name": "Web Development",
         "level": "95%"
+      },
+      {
+        "name": "Blockchain Development",
+        "level": "75%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
+        "title": "Music Box",
+        "Description": [
+          "Search For Musi",
+          "Create Playlist",
+          "Library (Album And Playlist)",
+          "Browse Genre/Artist/Album",
+          "Music Player Controls"
+        ],
         "category": "",
         "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "websiteLink": "https://themusicbox.netlify.app",
+        "githubLink": "https://github.com/vyktoremario",
+        "technologies": [
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          }
+        ]
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Music Box",
+        "descriptions": [
+          "Search For Musi",
+          "Create Playlist",
+          "Library (Album And Playlist)",
+          "Browse Genre/Artist/Album",
+          "Music Player Controls"
+        ],
         "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "image": "snapchat.jpg",
+        "websiteLink": "https://themusicbox.netlify.app",
+        "githubLink": "https://github.com/vyktoremario",
+        "technologies": [
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          }
+        ]
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Music Box",
+        "descriptions": [
+          "Search For Musi",
+          "Create Playlist",
+          "Library (Album And Playlist)",
+          "Browse Genre/Artist/Album",
+          "Music Player Controls"
+        ],
         "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "image": "snapchat.jpg",
+        "websiteLink": "https://themusicbox.netlify.app",
+        "githubLink": "https://github.com/vyktoremario",
+        "technologies": [
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          }
+        ]
+      },
+      {
+        "title": "Music Box",
+        "descriptions": [
+          "Search For Musi",
+          "Create Playlist",
+          "Library (Album And Playlist)",
+          "Browse Genre/Artist/Album",
+          "Music Player Controls"
+        ],
+        "category": "",
+        "image": "snapchat.jpg",
+        "websiteLink": "https://themusicbox.netlify.app",
+        "githubLink": "https://github.com/vyktoremario",
+        "technologies": [
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          },
+          {
+            "name": "Node",
+            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+          }
+        ]
       }
     ]
   },

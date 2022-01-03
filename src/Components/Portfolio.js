@@ -1,25 +1,132 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
+import "./Portfolio.css";
 
 const Portfolio = ({ data }) => {
   if (data) {
     var projects = data.projects.map(function (projects) {
-      var projectImage = "images/portfolio/" + projects.image;
+      // var projectImage = "images/portfolio/" + projects.image;
       return (
         <div key={projects.title} className="columns portfolio-item">
-          <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-              <img alt={projects.title} src={projectImage} />
-              <div className="overlay">
-                <div className="portfolio-item-meta">
-                  <h5>{projects.title}</h5>
-                  <p>{projects.category}</p>
-                </div>
-              </div>
-              <div className="link-icon">
-                <i className="fa fa-link"></i>
-              </div>
-            </a>
+        <div className="card-box">
+        <div class="card animate-card">
+        <div class="card__side card__side--front">
+          <div class="card__top">
+            <figure class="card__img card__img--desktop">
+              <img
+                class="card__picture"
+                src="./assets/images/music-box-img.png"
+                alt="oville"
+              />
+            </figure>
           </div>
+          <div class="card__detail">
+            <h4 class="card__title">Music Box</h4>
+            <ul class="card__list">
+              <li class="card__list-item">Search For Music</li>
+              <div class="card__divider"></div>
+              <li class="card__list-item">Create Playlist</li>
+              <div class="card__divider"></div>
+              <li class="card__list-item">Library (Album And Playlist)</li>
+              <div class="card__divider"></div>
+              <li class="card__list-item">Browse Genre/Artist/Album</li>
+              <li class="card__list-item">Music Player Controls</li>
+            </ul>
+            <div class="card__links">
+              <div class="card__demo">
+                <svg class="card__icon">
+                  <use
+                    href="./assets/icons/icons.svg#icon-global"
+                  ></use>
+                </svg>
+                <a
+                  target="_blank"
+                  href="https://themusicbox.netlify.app/home"
+                  >Demo</a
+                >
+              </div>
+              <div class="card__github">
+                <svg class="card__icon">
+                  <use
+                    href="./assets/icons/icons.svg#icon-github"
+                  ></use>
+                </svg>
+                <a
+                  target="_blank"
+                  href="https://github.com/oluSammy/music-box-backend"
+                  >Github</a
+                >
+              </div>
+            </div>
+            <div class="card__lang">
+              <figure class="card__lang-fig">
+                <img
+                  class="card__lang-img"
+                  src="https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+                  alt=""
+                />
+                <figcaption class="card__figcaption">Node</figcaption>
+              </figure>
+              <figure class="card__lang-fig">
+                <img
+                  class="card__lang-img"
+                  src="./assets/images/icons/MongoDB.jpeg"
+                  alt=""
+                />
+                <figcaption class="card__figcaption">MongoDB</figcaption>
+              </figure>
+              <figure class="card__lang-fig">
+                <img
+                  class="card__lang-img"
+                  src="./assets/images/icons/React.webp"
+                  alt=""
+                />
+                <figcaption class="card__figcaption">React</figcaption>
+              </figure>
+              <figure class="card__lang-fig">
+                <img
+                  class="card__lang-img"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNvlAM2kg5H1ufCzBW7GjzCo77Ys_neYxOHQ&usqp=CAU"
+                  alt=""
+                />
+                <figcaption class="card__figcaption">Express</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="card__side card__side--back">
+          <div class="card__link">
+            <div class="card__link-header">
+              <svg class="card__link-icon">
+                <use
+                  href="./assets/icons/icons.svg#icon-global"
+                ></use>
+              </svg>
+              <h5>Demo</h5>
+            </div>
+            <a target="_blank" href="https://themusicbox.netlify.app"
+              >https://themusicbox.netlify.app</a
+            >
+          </div>
+          <div class="card__link">
+            <div class="card__link-header">
+              <svg class="card__link-icon">
+                <use
+                  href="./assets/icons/icons.svg#icon-github"
+                ></use>
+              </svg>
+              <h5>Github Link</h5>
+            </div>
+            <a
+              target="_blank"
+              href="https://github.com/oluSammy/music-box-backend"
+              >https://github.com/oluSammy/music-box-backend</a
+            >
+          </div>
+        </div>
+      </div>
+        </div>
         </div>
       );
     });
@@ -27,15 +134,17 @@ const Portfolio = ({ data }) => {
 
   return (
     <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
+      <div className="card-box">
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1>Check Out Some of My Works.</h1>
 
-          <div
-            id="portfolio-wrapper"
-            className="bgrid-quarters s-bgrid-thirds cf"
-          >
-            {projects}
+            <div
+              id="portfolio-wrapper"
+              className="bgrid-quarters s-bgrid-thirds cf"
+            >
+              {projects}
+            </div>
           </div>
         </div>
       </div>
