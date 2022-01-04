@@ -8,9 +8,7 @@ const Portfolio = ({ data }) => {
     var projects = data.projects.map(function (projects) {
       // var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={projects.title} className="columns portfolio-item">
-        <div className="card-box">
-        <div class="card animate-card">
+        <div key={projects.title} class="card animate-card">
         <div class="card__side card__side--front">
           <div class="card__top">
             <figure class="card__img card__img--desktop">
@@ -37,26 +35,24 @@ const Portfolio = ({ data }) => {
               <div class="card__demo">
                 <svg class="card__icon">
                   <use
-                    href="./assets/icons/icons.svg#icon-global"
+                    href="images/icons/icons.svg#icon-global"
                   ></use>
                 </svg>
                 <a
                   target="_blank"
                   href="https://themusicbox.netlify.app/home"
-                  >Demo</a
-                >
+                  >Demo</a>
               </div>
               <div class="card__github">
                 <svg class="card__icon">
                   <use
-                    href="./assets/icons/icons.svg#icon-github"
+                    href="images/icons/icons.svg#icon-github"
                   ></use>
                 </svg>
                 <a
                   target="_blank"
                   href="https://github.com/oluSammy/music-box-backend"
-                  >Github</a
-                >
+                  >Github</a>
               </div>
             </div>
             <div class="card__lang">
@@ -71,7 +67,7 @@ const Portfolio = ({ data }) => {
               <figure class="card__lang-fig">
                 <img
                   class="card__lang-img"
-                  src="./assets/images/icons/MongoDB.jpeg"
+                  src="images/portfolio/icons/MongoDB.jpeg"
                   alt=""
                 />
                 <figcaption class="card__figcaption">MongoDB</figcaption>
@@ -79,7 +75,7 @@ const Portfolio = ({ data }) => {
               <figure class="card__lang-fig">
                 <img
                   class="card__lang-img"
-                  src="./assets/images/icons/React.webp"
+                  src="images/portfolio/icons/React.webp"
                   alt=""
                 />
                 <figcaption class="card__figcaption">React</figcaption>
@@ -100,20 +96,19 @@ const Portfolio = ({ data }) => {
             <div class="card__link-header">
               <svg class="card__link-icon">
                 <use
-                  href="./assets/icons/icons.svg#icon-global"
+                  href="images/icons/icons.svg#icon-global"
                 ></use>
               </svg>
               <h5>Demo</h5>
             </div>
             <a target="_blank" href="https://themusicbox.netlify.app"
-              >https://themusicbox.netlify.app</a
-            >
+              >https://themusicbox.netlify.app</a>
           </div>
           <div class="card__link">
             <div class="card__link-header">
               <svg class="card__link-icon">
                 <use
-                  href="./assets/icons/icons.svg#icon-github"
+                  href="images/icons/icons.svg#icon-github"
                 ></use>
               </svg>
               <h5>Github Link</h5>
@@ -121,33 +116,25 @@ const Portfolio = ({ data }) => {
             <a
               target="_blank"
               href="https://github.com/oluSammy/music-box-backend"
-              >https://github.com/oluSammy/music-box-backend</a
-            >
+              >https://github.com/oluSammy/music-box-backend</a>
           </div>
         </div>
       </div>
-        </div>
-        </div>
       );
     });
   }
 
   return (
-    <section id="portfolio">
-      <div className="card-box">
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
-
-            <div
-              id="portfolio-wrapper"
-              className="bgrid-quarters s-bgrid-thirds cf"
-            >
-              {projects}
-            </div>
-          </div>
+    <section class="projects" id="portfolio">
+        <div class="projects__header">
+          <h2 class="projects__title section-heading">Projects</h2>
+          <svg class="projects__icon">
+            <use href="images/icons/icons.svg#icon-shield"></use>
+          </svg>
         </div>
-      </div>
+        <div className="card-box">
+        {projects}
+        </div>
     </section>
   );
 };
