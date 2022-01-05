@@ -14,7 +14,7 @@ const Portfolio = ({ data }) => {
             <figure class="card__img card__img--desktop">
               <img
                 class="card__picture"
-                src="./assets/images/music-box-img.png"
+                src="images/portfolio/music-box-img.png"
                 alt="oville"
               />
             </figure>
