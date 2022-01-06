@@ -2,7 +2,7 @@
   "main": {
     "name": "Victor Umeh",
     "occupation": "Software/Blockchain Engineer",
-    "description": "I just wanna make Money!!",
+    "description": "I curate Experiences with Technology",
     "image": "profilepic.jpg",
     "bio": "Hi, I am Victor Umeh and I am a Software Engineer. As a result oriented software Engineer I leverage my analytical skills to deliver secure, innovative and efficient web applications. I have two extensive years of hands-on experience efficiently coding web applications using Node.js, React NextJs, and Typescript. Also I build web3 decentralized applications, using Solidity, webJs, ethersJs and moralis.",
     "contactmessage": "Get in touch with me to be a part of the PAPA fam!",
@@ -10,48 +10,47 @@
     "phone": "+2348133494315",
     "address": {
       "street": "26 Negedu Street, Byazhin",
-      "city": "Abuja",
-      "state": "Federal Capital Territory",
+      "city": "FCT, Abuja",
+      "state": "Nigeria",
       "zip": "900001"
     },
-    "website": "https://www.papareact.com/course",
     "resumedownload": "./UMEH-VICTOR-CV.pdf",
     "social": [
       {
         "name": "twitter",
-        "url": "https://www.youtube.com/channel/UCqeTj_QAnNlmt7FwzNwHZnA",
-        "className": "fa fa-youtube"
+        "url": "https://www.twitter.com/vyktoreumeh",
+        "className": "fa fa-twitter"
       },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/sonny.sangha.3",
+        "url": "https://web.facebook.com/victor.umeh.395",
         "className": "fa fa-facebook"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/saajansangha",
+        "url": "https://www.linkedin.com/in/victor-umeh/",
         "className": "fa fa-linkedin"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/ssssangha/",
+        "url": "https://www.instagram.com/code_mahreo/",
         "className": "fa fa-instagram"
       },
       {
         "name": "github",
-        "url": "https://github.com/vyktoremario",
+        "url": "https://github.com/vyktoremario/",
         "className": "fa fa-github"
       }
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "Languages and Technologies I work with!",
     "education": [
       {
         "school": "Federal University of Technology, Owerri - Nigeria",
         "degree": "Bachelor's Degree, Civil Engineering",
         "graduated": "November 2017",
-        "description": "Graduated with Second Class Honours"
+        "description": "B.Eng - Second Class Honours"
       }
     ],
     "work": [
@@ -134,6 +133,10 @@
         "image": "moralis.png"
       },
       {
+        "name": "EthersJs",
+        "image": "ethersjs.png"
+      },
+      {
         "name": "Blockchain",
         "image": "blockchain.png"
       }
@@ -142,130 +145,146 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Music Box",
-        "Description": [
-          "Search For Musi",
-          "Create Playlist",
-          "Library (Album And Playlist)",
-          "Browse Genre/Artist/Album",
-          "Music Player Controls"
+        "title": "Krypto-Swap",
+        "descriptions": [
+          "Connect to metamask",
+          "Send Eth to different addresses",
+          "View all transactions performed on address"
         ],
         "category": "",
-        "image": "snapchat.jpg",
-        "websiteLink": "https://themusicbox.netlify.app",
-        "githubLink": "https://github.com/vyktoremario",
+        "image": "krypto-swap.png",
+        "websiteLink": "https://krypto-swap.netlify.app/",
+        "githubLink": "https://github.com/vyktoremario/krypto-swap-frontend",
         "technologies": [
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "React",
+            "img": "react-icon.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "Typescript",
+            "img": "typescript.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "Solidity",
+            "img": "solidity.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "Blockchain",
+            "img": "blockchain.png"
+          },
+          {
+            "name": "Tailwind",
+            "img": "tailwindcss.png"
+          },
+          {
+            "name": "Ethers",
+            "img": "ethersjs.png"
+          }
+        ]
+      },
+      {
+        "title": "Metaverse Chat",
+        "descriptions": [
+          "Connect with Metamask",
+          "Change display name",
+          "Chat with all connected Anonymously"
+        ],
+        "category": "",
+        "image": "metaverse-chat.png",
+        "websiteLink": "https://metaverse-challenge-kappa.vercel.app/",
+        "githubLink": "https://github.com/vyktoremario/metaverse-challenge",
+        "technologies": [
+          {
+            "name": "React",
+            "img": "react-icon.png"
+          },
+          {
+            "name": "Javascript",
+            "img": "js-icon.png"
+          },
+          {
+            "name": "Next",
+            "img": "nextjs.jfif"
+          },
+          {
+            "name": "Moralis",
+            "img": "moralis.png"
+          },
+          {
+            "name": "Blockchain",
+            "img": "blockchain.png"
+          },
+          {
+            "name": "Tailwind",
+            "img": "tailwindcss.png"
           }
         ]
       },
       {
         "title": "Music Box",
         "descriptions": [
-          "Search For Musi",
+          "Search For Music",
           "Create Playlist",
           "Library (Album And Playlist)",
           "Browse Genre/Artist/Album",
           "Music Player Controls"
         ],
         "category": "",
-        "image": "snapchat.jpg",
+        "image": "music-box-img.png",
         "websiteLink": "https://themusicbox.netlify.app",
-        "githubLink": "https://github.com/vyktoremario",
+        "githubLink": "https://github.com/vyktoremario/music-box-frontend",
         "technologies": [
           {
             "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "img": "node-js-logo.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "Express",
+            "img": "express.webp"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "React",
+            "img": "react-icon.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "Typescript",
+            "img": "typescript.png"
+          },
+          {
+            "name": "MongoDB",
+            "img": "MongoDB.jpeg"
           }
         ]
       },
       {
-        "title": "Music Box",
+        "title": "Spotify Clone",
         "descriptions": [
-          "Search For Musi",
-          "Create Playlist",
+          "Login to Spotify",
+          "Browse Music",
           "Library (Album And Playlist)",
           "Browse Genre/Artist/Album",
           "Music Player Controls"
         ],
         "category": "",
-        "image": "snapchat.jpg",
-        "websiteLink": "https://themusicbox.netlify.app",
-        "githubLink": "https://github.com/vyktoremario",
+        "image": "spotify-clone.png",
+        "websiteLink": "https://myspotifybuild.netlify.app/",
+        "githubLink": "https://github.com/vyktoremario/spotify-clone",
         "technologies": [
           {
             "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "img": "node-js-logo.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "React",
+            "img": "react-icon.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "Typescript",
+            "img": "typescript.png"
           },
           {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
-          }
-        ]
-      },
-      {
-        "title": "Music Box",
-        "descriptions": [
-          "Search For Musi",
-          "Create Playlist",
-          "Library (Album And Playlist)",
-          "Browse Genre/Artist/Album",
-          "Music Player Controls"
-        ],
-        "category": "",
-        "image": "snapchat.jpg",
-        "websiteLink": "https://themusicbox.netlify.app",
-        "githubLink": "https://github.com/vyktoremario",
-        "technologies": [
-          {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
-          },
-          {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
-          },
-          {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
-          },
-          {
-            "name": "Node",
-            "img": "https://cdn.iconscout.com/icon/free/png-512/node-js-1-1174935.png"
+            "name": "CSS",
+            "img": "css.png"
           }
         ]
       }
@@ -274,12 +293,12 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Sonny is absolutely excellent, his depth of knowledge & his mentorship really meant a lot to us... I would definitely recommend",
-        "user": "Jorge Fouto"
+        "text": "Victor is a smart and goal oriented individual who is an expert in all he finds himself doing... I would definitely recommend",
+        "user": "Mercy Akingbade"
       },
       {
-        "text": "Learning with Sonny has been AWESOME, he makes learning React so easy and approachable, you'll finally feel like you know what's going on!",
-        "user": "Adam Curtis"
+        "text": "We have known each other for over 10 years now. Victor and I went to the same school and I had the pleasure of taking a few classes with him and seeing how brilliant he is. He is an exceptional learner and his knowledge in IT and engineering are very extensive. His ability to focus helped him to become the field expert he is now. I love his positive attitude and he is amazing at his job! He knows his way around people, he is good with the clients, does whatever it takes to help colleagues and gets things done. He makes sure that everyone is on the same page and focused on the main goal. The collaboration was very smooth and his assistance definitely made a huge impact on our success. Victor is a great professional!” I strongly recommend him.",
+        "user": "Tobechi Onyeukwu (MNSE)"
       }
     ]
   }

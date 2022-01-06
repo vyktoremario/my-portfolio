@@ -77,8 +77,8 @@ const Resume = ({ data }) => {
         </div>
 
         <div className="dev" id="dev">
-          <p>{skillmessage}</p>
-          <div className="dev__container animate-dev">
+        <p style={{borderBottom: 0, paddingBottom: 0, marginBottom: 0}}>{skillmessage}</p>
+        <div className="dev__container animate-dev">
             {skills}
           </div>
         </div>
