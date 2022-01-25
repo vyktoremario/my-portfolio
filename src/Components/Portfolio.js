@@ -74,7 +74,7 @@ const Portfolio = ({ data }) => {
                 <h5>Demo</h5>
               </div>
               <a target="_blank" href={projects.websiteLink}>
-                https://themusicbox.netlify.app
+                {projects.websiteLink}
               </a>
             </div>
             <div class="card__link">
@@ -85,7 +85,7 @@ const Portfolio = ({ data }) => {
                 <h5>Github Link</h5>
               </div>
               <a target="_blank" href={projects.githubLink}>
-                https://github.com/oluSammy/music-box-backend
+                {projects.githubLink}
               </a>
             </div>
           </div>
