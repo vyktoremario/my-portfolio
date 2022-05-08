@@ -55,9 +55,15 @@
     ],
     "work": [
       {
+        "company": "This Dot Labs",
+        "title": "Software Engineer",
+        "years": "February 2022 - Present",
+        "description": "Built over three (3) open-source projects, namely: framework.dev, starter.dev and perfbuddy.com.Built projects with Reactjs, Nextjs, Astro, Express, Serverless etc. Built a Backend code for a client (Stripe) in seven different supported languages (Node, Java, PHP, Ruby, Python. Go and Ruby). Experienced in documenting code and writing articles."
+      },
+      {
         "company": "Decagon Institute",
         "title": "Software Engineer",
-        "years": "March 2020 - Present",
+        "years": "March 2020 - January 2022",
         "description": "Built projects with NodeJs, Express Framework, Typescript, React.js, JavaScript, Websockets and GraphQL. Handled Database Management Systems with SQL like PostgresSQL and MongoDB(NoSQL). Experienced with writing unit using Jest. Delivered weekly features following the agile methodology"
       },
       {
